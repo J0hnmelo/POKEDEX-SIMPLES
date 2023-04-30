@@ -1,0 +1,8 @@
+@charset "UTF8";
+#botao {
+    background-color: transparent;
+    border: none;
+}
+#botao > img {
+    width: 76%;
+}

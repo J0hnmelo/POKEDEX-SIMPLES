@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+}
+#chek {
+    display: none;
+}
+#switch{
+  display: flex;
+  align-items: center;
+}
+#toggle-case {
+  width: 40px;
+  height: 22px;
+  background-color: rgb(219, 206, 13);
+  border-radius: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.toggle-ball {
+  margin-left: 1.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  transition: all .5s ease-in-out;
+  position: absolute;
+}
+#sol {
+  display: block;
+  width: 20%;
+  height: 20px;
+}
+#lua{
+  display: block;
+  width: 20%;
+  height: 20px;
+}
+
